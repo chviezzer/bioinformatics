@@ -109,11 +109,11 @@ def get_fasta(pdb_file, fasta_file, transfer_ids=None):
         fasta_writer.write_record(rec)
 
 
-get_fasta(open('pdb1tup.ent'), open('1tup.fasta', 'w'),
+get_fasta(open('../results/pdb1tup.ent'), open('../results/1tup.fasta', 'w'),
           transfer_ids=['1TUP:B'])
 
-get_fasta(open('pdb1olg.ent'), open('1olg.fasta', 'w'),
+get_fasta(open('../results/pdb1olg.ent'), open('../results/1olg.fasta', 'w'),
           transfer_ids=['1OLG:B'])
 
-get_fasta(open('pdb1ycq.ent'), open('1ycq.fasta', 'w'),
+get_fasta(open('../results/pdb1ycq.ent'), open('../results/1ycq.fasta', 'w'),
           transfer_ids=['1YCQ:B'])
